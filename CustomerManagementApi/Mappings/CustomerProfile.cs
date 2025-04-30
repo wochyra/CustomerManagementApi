@@ -9,6 +9,7 @@ namespace CustomerManagementApi.Mappings
         public CustomerProfile()
         {
             CreateMap<CreateCustomerRequest, Customer>();
+            CreateMap<UpdateCustomerRequest, Customer>();
         }
     }
 }
